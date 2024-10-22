@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmet.TaiKhoan"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_login"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imgPerson"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_person"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kiên Bùi Trung"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black" />
+
+                    <Button
+                        android:id="@+id/btnEditProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chỉnh sửa"
+                        android:backgroundTint="@android:color/holo_green_light"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Món ăn đã lưu"
+                android:drawableLeft="@drawable/ic_favorite"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cài Đặt"
+                android:drawableLeft="@drawable/ic_setting"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSupport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hỗ Trợ"
+                android:drawableLeft="@drawable/ic_support"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chia Sẻ"
+                android:drawableLeft="@drawable/ic_share"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng xuất"
+                android:drawableLeft="@drawable/ic_logout"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+</FrameLayout>

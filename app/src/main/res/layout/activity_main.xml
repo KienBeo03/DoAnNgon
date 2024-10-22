@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            >
+            <EditText
+                android:id="@+id/edtSeach"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_seach"
+                android:hint="Tìm Kiếm "
+                android:textSize="20dp"
+                android:padding="5dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/nav_menu_iteam"
+        android:background="@drawable/background_login"
+        />
+</LinearLayout>

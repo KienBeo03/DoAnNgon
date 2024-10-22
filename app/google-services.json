@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250980033041",
+    "project_id": "doanngon-4adef",
+    "storage_bucket": "doanngon-4adef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250980033041:android:c938bcb150827430c3c7b0",
+        "android_client_info": {
+          "package_name": "com.example.doanngon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjEYW7JR9acc1oLIJTkq7y6VGol3Ad1_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

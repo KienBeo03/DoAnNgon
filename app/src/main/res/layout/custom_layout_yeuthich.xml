@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/item_layout_yt"
+    android:background="@drawable/border">
+
+    <ImageView
+        android:id="@+id/cus_yt_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/cus_yt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Thịt gà"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/cus_yt_img"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/cus_yt_cate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Gà"
+        android:layout_below="@id/cus_yt_title"
+        android:layout_toRightOf="@id/cus_yt_img"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/cus_yt_imgYeuThich"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/ic_favorite_border"
+    />
+</RelativeLayout>

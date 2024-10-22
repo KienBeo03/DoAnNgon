@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="103dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/border"
+    android:padding="2dp"
+    android:id="@+id/cus_lu_monan"
+    >
+
+    <ImageButton
+        android:id="@+id/cus_imgProduct"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        >
+
+        <ImageView
+            android:id="@+id/cus_imgAvata"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/ic_person"/>
+
+        <TextView
+            android:id="@+id/cus_txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thu mèo"
+            android:textSize="8dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cus_txtNameProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Gà nướng adadw adad"
+        android:textSize="12dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        >
+
+        <TextView
+            android:id="@+id/cus_txtTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="7dp"
+            android:text="10 phút trước"/>
+
+        <ImageButton
+            android:id="@+id/cus_imgSave"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_favorite"/>
+    </LinearLayout>
+
+</LinearLayout>

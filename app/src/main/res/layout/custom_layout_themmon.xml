@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/item_layout"
+    android:background="@drawable/border"
+    >
+    <ImageView
+        android:id="@+id/cus_luthemon_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:id="@+id/cus_luthemon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Thịt gà"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cus_luthemon_img"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/cus_luthemon_cate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="Gà"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/cus_luthemon_title"
+        android:layout_toRightOf="@+id/cus_luthemon_img"
+        />
+</RelativeLayout>
